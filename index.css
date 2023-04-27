@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Marcellus&family=Poppins&family=Six+Caps&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+    background-color: rgb(253, 253, 253);
+}
+
+nav h1{
+    font-size: 3.3rem;
+    padding-left: 5%;
+    color: black;
+    cursor: pointer;
+}
+
+nav span{
+    color: rgb(81, 206, 255);
+}
+
+nav ul{
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    padding: 8%;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 1.7rem; 
+    padding-right: 12%;
+    display: inline-block;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font: bold;
+    text-transform: capitalize;
+    padding: 7px;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 7px;
+    transition: 0.6s;
+}
+
+header{
+    background-image: url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80');
+    width: 100%;
+    height: 875px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    cursor: default;
+}
+
+.texto{
+    width: 50%;
+    letter-spacing: 1px;
+    margin: 19% 10% 10% ;
+
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    font-size: 25px;
+    display: block;
+    cursor: default;
+    
+}
+
+.social{
+    position: absolute;
+    margin: 31% 17.5%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 40px;
+    color: black;
+    margin: 3%;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+    
+
+}
+
+header h2{
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+}
+
+header h3{
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+header span{
+    color: rgb(81, 206, 255);
+   
+}
+
+.imagem{
+    width: 50%;
+    margin: 8% 3% 3%;
+    
+}
+
+header img{
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+main{
+    height: 980px;
+    background-color: rgb(255,255,255);
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,187,200,1) 10%, rgb(114, 138, 148) 48%, rgb(127, 155, 207) 100%);
+    background-image: url('https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1508&q=80');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    cursor: default;
+}
+
+
+.contato{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20%;
+}
+
+main h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+main h1{
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+}
+
+.serviços{
+    height: 980px;
+    background-color: rgb(255,255,255);
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,187,200,1) 10%, rgb(114, 138, 148) 48%, rgb(127, 155, 207) 100%);
+    background-image: url('https://images.unsplash.com/photo-1485003975062-9946bdb9dbae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    cursor: default;
+}
+
+.textinho{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 22%;
+
+}
+
+
+.serviços h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.serviços h1{
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 115px;
+    background-color: rgb(253, 253, 253);
+}
+
+footer h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+footer h2:hover{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 7px;
+    transition: 0.6s;
+}
+
+
